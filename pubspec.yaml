@@ -1,0 +1,69 @@
+name: musicapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.6.0
+  cached_network_image: ^3.2.3
+  flutter_animate: ^4.1.1+1
+  percent_indicator: ^4.2.2
+  nb_utils: 5.0.8
+  #MusicPodCast
+  # flutter_local_notifications: 13.0.0
+  get_storage: ^2.0.3
+  dio: ^5.0.0
+  flutter_easyloading: ^3.0.5
+  fluttertoast: ^8.2.1
+  get: ^4.6.5
+  audio_service: ^0.18.10
+  assets_audio_player: ^3.0.6
+  perfect_volume_control: ^1.0.5
+  flutter_typeahead: ^4.6.2
+  cupertino_back_gesture: ^0.1.0
+  learning_digital_ink_recognition: ^0.0.2
+  provider: ^6.0.5
+  learning_input_image: ^0.0.6+2
+  path_provider: ^2.0.15
+  permission_handler: ^10.3.0
+  flutter_downloader: ^1.10.4
+  url_launcher: ^6.1.11
+  share_plus: 4.5.3
+  speech_to_text: ^6.3.0
+  avatar_glow: ^2.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon_launcher.png"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf 
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf    
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 700
